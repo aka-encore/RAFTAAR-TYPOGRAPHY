@@ -503,3 +503,135 @@ width:100%;
 height:1.5px;
 background:#d4af37;
 }
+/* ================= TABLET ================= */
+
+@media (max-width:1024px){
+
+.hero h1{
+font-size:12vw;
+}
+
+.songs{
+grid-template-columns:1fr;
+gap:80px;
+text-align:center;
+}
+
+.poster-stack{
+width:350px;
+height:350px;
+}
+
+.song{
+font-size:5vw;
+}
+
+.aura-grid{
+grid-template-columns:1fr 1fr;
+}
+
+.monument h2{
+font-size:8vw;
+}
+
+.statement{
+height:400px;
+}
+
+.statement h2{
+font-size:12vw;
+}
+
+}
+/* ================= MOBILE ================= */
+
+@media (max-width:768px){
+
+section{
+padding:100px 6%;
+}
+
+/* HERO */
+.hero{
+flex-direction:column;
+}
+
+.hero-split{
+width:100%;
+height:50%;
+position:relative;
+}
+
+.hero-left,
+.hero-right{
+height:50vh;
+}
+
+.hero h1{
+font-size:14vw;
+letter-spacing:6px;
+}
+
+.hero span{
+font-size:0.8rem;
+}
+
+/* SONGS */
+.poster-stack{
+width:280px;
+height:280px;
+}
+
+.song{
+font-size:7vw;
+}
+
+.song-column{
+gap:40px;
+}
+
+/* AURA */
+.aura-grid{
+grid-template-columns:1fr;
+}
+
+.aura h2{
+font-size:9vw;
+}
+
+.aura-desc{
+font-size:0.9rem;
+}
+
+/* MONUMENT */
+.monument{
+min-height:70vh;
+}
+
+.monument h2{
+font-size:10vw;
+letter-spacing:4px;
+}
+
+.monument p{
+font-size:0.9rem;
+}
+
+/* STATEMENT */
+.statement{
+height:300px;
+margin:80px 6%;
+}
+
+.statement h2{
+font-size:14vw;
+letter-spacing:6px;
+}
+
+/* FOOTER */
+.footer p{
+line-height:1.6;
+font-size:0.9rem;
+}
+
+}
